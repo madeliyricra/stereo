@@ -19,3 +19,12 @@ font-family: 'Sigmar One', cursive; */
 body{
     background-color: var(--third);
 }
+
+.far,
+.fas{
+  color: #845EC2;
+}
+
+img{
+  width: 100px;
+}
