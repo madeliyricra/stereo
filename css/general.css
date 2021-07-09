@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&family=Sigmar+One&display=swap');
+
+/* font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Sigmar One', cursive; */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+:root{
+  --first: #845EC2;
+  --second: #B39CD0;
+  --third:  #FBEAFF;
+  --fourth: #00C9A7;
+  /*colores extras*/
+  --white: #fff;
+  --black: #000;
+}
+body{
+    background-color: var(--third);
+}
