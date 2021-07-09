@@ -1,4 +1,70 @@
 /*contenido*/
 .content{
-
+    width: 95%;
+    height: calc(100vh - 80px);
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 3fr 2fr;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 2rem;
+    justify-content: space-evenly;
+    grid-template-areas: "menu principal dowloand"
+                        "link album dowloand";
 }
+/*compoenetes principales*/
+.content__menu{
+    grid-area: menu;
+}
+.content__principal{
+    background-color: cornflowerblue;
+    grid-area: principal;
+}
+.content__dowloand{
+    background-color: coral;
+    grid-area: dowloand;
+}
+.content__link{
+    background-color: darkcyan;
+    grid-area: link;
+}
+.content__album{
+    background-color: darkgray;
+    grid-area: album;
+}
+
+/*------componentes del menu-------*/
+.content__menu-nav{
+    height: 100%;
+    text-decoration: none;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1.5rem;
+
+    padding-top: 1.5rem;
+}
+.nav__list{
+    list-style: none;
+}
+.nav_list-link{
+    text-decoration: none;
+    color: var(--black);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.link--fas{
+    font-size: small;
+    width: 1.7rem;
+    height: 1.7rem;
+    background: var(--icon);
+    border-radius: 50%;
+
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: 1px 1px 2px rgb(201, 200, 200);
+}
+ /*-------componentes del link-----*/

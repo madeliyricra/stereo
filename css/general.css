@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&family=Sigmar+One&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Sigmar+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
 /* font-family: 'Roboto Condensed', sans-serif;
 font-family: 'Sigmar One', cursive; */
+/*font-family: 'Kanit', sans-serif;*/
 *{
     padding: 0;
     margin: 0;
@@ -10,11 +11,12 @@ font-family: 'Sigmar One', cursive; */
 :root{
   --first: #845EC2;
   --second: #B39CD0;
-  --third:  #FBEAFF;
+  --third:  #f6f6f6;
   --fourth: #00C9A7;
   /*colores extras*/
   --white: #fff;
   --black: #000;
+  --icon: rgb(245, 243, 243);
 }
 body{
     background-color: var(--third);
@@ -22,9 +24,27 @@ body{
 
 .far,
 .fas{
-  color: #845EC2;
+  color: var(--second);
+  cursor: pointer;
 }
 
-img{
-  width: 100px;
+/*imagenes*/
+.image--circle{
+  object-fit: cover;
+  object-position: center;
+  background-color: chartreuse;
+  border-radius: 50%;
 }
+.image--big{
+  width: 10rem;
+  height: 10rem;
+}
+.image--medium{
+  width: 5rem;
+  height: 5rem;
+}
+.image--small{
+  width: 3rem;
+  height: 3rem;
+}
+/**/
