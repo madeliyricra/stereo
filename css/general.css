@@ -32,7 +32,6 @@ body{
 .image--circle{
   object-fit: cover;
   object-position: center;
-  background-color: chartreuse;
   border-radius: 50%;
 }
 .image--big{
@@ -47,4 +46,34 @@ body{
   width: 3rem;
   height: 3rem;
 }
-/**/
+/*--------texto---------*/
+.title{
+  font-family: 'Kanit', sans-serif;
+  font-size: 3rem;
+}
+.subtitle{
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+.paragraph{
+  font-size: 1.1rem;
+}
+
+/*----boton circular------*/
+.button--circle{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: var(--first); 
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.button--circle:hover{
+  background: #845ec2e1;
+  transition: all 1s;
+}
+.fa-play{
+  font-size: 2rem;
+}
