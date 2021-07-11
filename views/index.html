@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>stereo</title>
+    <title>stereo - Home</title>
     <!--font-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="/css/general.css">
     <link rel="stylesheet" href="/css/header.css">
     <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/media.css">
 </head>
 
 <body>
@@ -29,7 +30,8 @@
                 <i class="far fa-bell"></i>
             </a>
             <p class="header__nav-user">Usuario</p>
-            <img src="https://i.ibb.co/MgTSxh2/shaw-mendes.jpg" alt="" class="header__nav--responsibe image--circle image--small ">
+            <img src="https://i.ibb.co/MgTSxh2/shaw-mendes.jpg" alt=""
+                class="image--circle image--small ">
         </nav>
     </header>
     <!--contenedor-->
@@ -38,7 +40,7 @@
         <div class="content__menu">
             <ul class="content__menu-nav">
                 <li class="nav__list">
-                    <a href=""  class="nav_list-link">
+                    <a href="" class="nav_list-link">
                         <i class="fas fa-search link--fas"></i>
                         <span>Explorar</span>
                     </a>
@@ -57,7 +59,7 @@
                 </li>
                 <li class="nav__list">
                     <a href="" class="nav_list-link">
-                        <i class="fas fa-compact-disc link--fas" ></i>
+                        <i class="fas fa-compact-disc link--fas"></i>
                         <span>Albums</span>
                     </a>
                 </li>
@@ -65,20 +67,48 @@
         </div>
         <!--banner principal-->
         <div class="content__principal">
-            
+
             <div class="content__principal-artist">
                 <h2 class="title">Shawn Mendes</h2>
-                <h5 class="subtitle">Canadiense</h5>
+                <h5 class="subtitle principal__artist--font">Canadiense</h5>
                 <p class="paragraph">
                     Shawn Peter Raul Mendes es un cantante, compositor y modelo canadiense. Obtuvo seguidores en 2013,
                     cuando comenzó a publicar versiones de canciones en la aplicación para compartir videos de Vine.​
                 </p>
+                <div class="principal__artist-link">
+                    <h5 class="subtitle subtitle-font">Disponible en</h5>
+                    <ul class="artist__link">
+                        <li class="artist__link-item">
+                            <i class="fab fa-youtube"></i>
+                            <span>Youtube</span>
+                        </li>
+                        <li class="artist__link-item">
+                            <i class="fab fa-spotify"></i>
+                            <span>Spotify</span>
+                        </li>
+                        <li class="artist__link-item">
+                            <i class="fas fa-headphones-alt"></i>
+                            <span>Deezer</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="principal__artist-gender">
+                    <h5 class="subtitle subtitle-font">Género</h5>
+                    <ul class="artist__link">
+                        <li class="artist__link-item">Pop</li>
+                        <li class="artist__link-item">Folk</li>
+                        <li class="artist__link-item">Rock</li>
+                    </ul>
+                </div>
             </div>
-           
+
             <div class="content__principal-image">
-                <img src="https://i.ibb.co/MgTSxh2/shaw-mendes.jpg" alt="" class="principal__image--big image--circle image--big">
-                <img src="https://i.ibb.co/MgTSxh2/shaw-mendes.jpg" alt="" class="principal__image--medium image--circle image--medium">
-                <img src="https://i.ibb.co/MgTSxh2/shaw-mendes.jpg" alt="" class="principal__image--small image--circle image--small">
+                <img src="https://i.ibb.co/MgTSxh2/shaw-mendes.jpg" alt=""
+                    class="principal__image--big image--circle image--big">
+                <img src="https://i.ibb.co/MgTSxh2/shaw-mendes.jpg" alt=""
+                    class="principal__image--medium image--circle image--medium">
+                <img src="https://i.ibb.co/MgTSxh2/shaw-mendes.jpg" alt=""
+                    class="principal__image--small image--circle image--small">
                 <div class="button--circle principal__image--button">
                     <i class="fas fa-play"></i>
                 </div>
@@ -87,8 +117,9 @@
         </div>
         <!--contenedor de descargas-->
         <div class="content__dowloand">
-            <h2 class="subtitle">Descargas</h2>
-            <!--item de descargas-->
+            <h2 class="subtitle subtitle-mg">Descargas</h2>
+            <div class="dowloand">
+                <!--item de descargas-->
             <div class="content__dowloand-item">
                 <img src="https://i.ibb.co/MgTSxh2/shaw-mendes.jpg" alt="" class="image--circle image--medium">
                 <div class="item__info">
@@ -142,53 +173,81 @@
                 <div class="item__icon">
                     <i class="fas fa-download"></i>
                 </div>
+            </div>
             </div>
         </div>
         <!--contenedor de links-->
         <div class="content__link">
             <a href="https://github.com/madeliyricra" class="content__music--link" target="_blank">
-                <i class="fab fa-instagram"></i>
+                <i class="fab fa-instagram icon--font"></i>
             </a>
             <a href="https://github.com/madeliyricra" class="content__music--link" target="_blank">
-                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-facebook-f icon--font"></i>
             </a>
             <a href="https://github.com/madeliyricra" class="content__music--link" target="_blank">
-                <i class="fab fa-github"></i>
+                <i class="fab fa-github icon--font"></i>
             </a>
         </div>
         <!--contenedor del album-->
         <div class="content__album">
             <!--item del album-->
             <div class="content__album-item">
+                <img src="https://i.ibb.co/MgTSxh2/shaw-mendes.jpg" alt=""
+                class="image--square item__album--align">
                 <h2 class="title item__album--align">01</h2>
                 <h6 class="subtitle item__album--mg">Wonder</h6>
-                <p class="paragraph item__album--mg">Pop</p>
                 <p class="paragraph item__album--mg">2020</p>
-                <a class="item__album--link">                   
-                    <span>Ver más..</span>
-                </a>
+                <div class="item__button">
+                    <div class="button--circle item__album--button">
+                        <i class="far fa-heart"></i>
+                    </div>
+                    <div class="button--circle item__album--play">
+                        <i class="fas fa-play"></i>
+                    </div>
+                    <div class="button--circle item__album--button">
+                        <i class="fas fa-angle-double-right"></i>
+                    </div>
+                </div>
             </div>
             <!--item del album-->
             <div class="content__album-item">
-                <h2 class="title item__album--align">02</h2>
+                <img src="https://i.ibb.co/MgTSxh2/shaw-mendes.jpg" alt=""
+                class="image--square item__album--align">
+                <h2 class="title item__album--align">01</h2>
                 <h6 class="subtitle item__album--mg">Wonder</h6>
-                <p class="paragraph item__album--mg">Pop</p>
                 <p class="paragraph item__album--mg">2020</p>
-                <a class="item__album--link">                   
-                    <span>Ver más..</span>
-                </a>
+                <div class="item__button">
+                    <div class="button--circle item__album--button">
+                        <i class="far fa-heart"></i>
+                    </div>
+                    <div class="button--circle item__album--play">
+                        <i class="fas fa-play"></i>
+                    </div>
+                    <div class="button--circle item__album--button">
+                        <i class="fas fa-angle-double-right"></i>
+                    </div>
+                </div>
             </div>
             <!--item del album-->
             <div class="content__album-item">
-                <h2 class="title item__album--align">03</h2>
+                <img src="https://i.ibb.co/MgTSxh2/shaw-mendes.jpg" alt=""
+                class="image--square item__album--align">
+                <h2 class="title item__album--align">01</h2>
                 <h6 class="subtitle item__album--mg">Wonder</h6>
-                <p class="paragraph item__album--mg">Pop</p>
                 <p class="paragraph item__album--mg">2020</p>
-                <a class="item__album--link">                   
-                    <span>Ver más..</span>
-                </a>
+                <div class="item__button">
+                    <div class="button--circle item__album--button">
+                        <i class="far fa-heart"></i>
+                    </div>
+                    <div class="button--circle item__album--play">
+                        <i class="fas fa-play"></i>
+                    </div>
+                    <div class="button--circle item__album--button">
+                        <i class="fas fa-angle-double-right"></i>
+                    </div>
+                </div>
             </div>
-            
+
         </div>
 
     </main>

@@ -23,7 +23,8 @@ body{
 }
 
 .far,
-.fas{
+.fas,
+.fab{
   color: var(--second);
   cursor: pointer;
 }
@@ -33,6 +34,14 @@ body{
   object-fit: cover;
   object-position: center;
   border-radius: 50%;
+}
+.image--square{
+  width: 85%;
+  height: 7rem;
+  border-radius: 0.5rem;
+  object-fit: cover;
+  object-position: center;
+  align-self: center;
 }
 .image--big{
   width: 10rem;
@@ -53,12 +62,18 @@ body{
 }
 .subtitle{
   font-weight: bold;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
 }
 .paragraph{
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
-
+.subtitle-mg{
+  margin: 1rem 0;
+}
+.subtitle-font{
+  font-size: 1.1rem;
+  margin: 0.6rem 0;
+}
 /*----boton circular------*/
 .button--circle{
   width: 80px;
@@ -76,4 +91,16 @@ body{
 }
 .fa-play{
   font-size: 2rem;
+}
+.icon--font{
+  color: var(--third);
+}
+
+/*----lista de item en contenido-------*/
+.artist__link{
+  display: flex;
+  gap: 1rem;
+}
+.artist__link-item{
+  list-style: none;
 }

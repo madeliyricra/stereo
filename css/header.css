@@ -6,6 +6,8 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     align-items: center;
+
+    border-bottom: 2px solid #ebe9e993;
 }
 /*componentes principales*/
 .header__logo{
@@ -19,7 +21,7 @@
     margin-right: 2rem;
 }
 
-/**/
+/*--------------------*/
 .header__logo--title{
     font-family: 'Kanit', sans-serif;
     font-weight: bold;
@@ -28,6 +30,6 @@
 .header__nav-user{
     font-size: 0.9rem;
 }
-.header__nav--responsibe{
+.header__nav--responsive{
     cursor: pointer;
 }
